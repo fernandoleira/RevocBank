@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ usr['first_name'] }}{{ usr['last_name'] }}</h1>
+<h3>Balance: ${{ usr['amount'] }}</h3>
+<br />
+<a href="{{ url_for('transfer') }}">New Transfer</a>
+{% endblock %}
