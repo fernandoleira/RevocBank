@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # This file must be used using `. bin/activate.fish` *within a running fish ( http://fishshell.com ) session*.
+=======
+# This file must be used using `source bin/activate.fish` *within a running fish ( http://fishshell.com ) session*.
+>>>>>>> a18dfbc216f4bffdff9bcaa5344ec31f407952ea
 # Do not run it directly.
 
 function deactivate -d 'Exit virtualenv mode and return to the normal environment.'
@@ -36,7 +40,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/Users/Fer/Desktop/RevocBank/venv"
+=======
+set -gx VIRTUAL_ENV "/home/fern/Desktop/RevocBank/venv"
+>>>>>>> a18dfbc216f4bffdff9bcaa5344ec31f407952ea
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

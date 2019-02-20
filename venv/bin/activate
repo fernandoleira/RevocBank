@@ -40,7 +40,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="/Users/Fer/Desktop/RevocBank/venv"
+=======
+VIRTUAL_ENV="/home/fern/Desktop/RevocBank/venv"
+>>>>>>> a18dfbc216f4bffdff9bcaa5344ec31f407952ea
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
