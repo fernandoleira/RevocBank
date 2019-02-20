@@ -1,0 +1,13 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    border-radius: 0% !important;
+    background-color: #222;
+}
+
+main {
+    padding-top: 50px;
+}
