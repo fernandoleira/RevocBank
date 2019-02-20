@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #!/Users/Fer/Desktop/RevocBank/venv/bin/python3.7
-=======
-#!/home/fern/Desktop/RevocBank/venv/bin/python3
->>>>>>> a18dfbc216f4bffdff9bcaa5344ec31f407952ea
 
 # -*- coding: utf-8 -*-
 import re
